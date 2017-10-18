@@ -5,7 +5,7 @@ var timeStamp=require("time-stamp");
 var send=require("../config/email_config")
 
 var obj={};
-
+ 
  
 obj.reg=function(req, res, next) {
   res.render("home/reg");

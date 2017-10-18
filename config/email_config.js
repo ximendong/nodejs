@@ -10,7 +10,7 @@ var transporter = nodemailer.createTransport({
 // 定义传输内容
   var mailOptions = {  
     from: 'XDL_CNODE<348192549@qq.com>', // 发送者, <邮箱格式要加尖括号> 
-    to:email, // 接受者,可以同时发送多个,以逗号隔开  
+    to:'980378951@qq.com', // 接受者,可以同时发送多个,以逗号隔开  
     subject: 'h530_cnode邮箱验证', // 标题  
     //text: 'Hello world', // 文本  
     html: "欢迎"+uname+"注册CNode<a href='http://127.0.0.1/users/activeok/"+uid+"'>跳转</a>" 

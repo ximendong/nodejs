@@ -11,5 +11,7 @@ router.get('/getstart',indexCtrl.getstart);
 
 router.get('/Mytopic',indexCtrl.Mytopic);
 
+router.get('/Mytopic/Remove',indexCtrl.MytopicRemove)
+
 module.exports = router;
  

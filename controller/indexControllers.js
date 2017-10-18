@@ -7,7 +7,7 @@ var ep=new Eventproxy();
 
 
 var obj={};
-
+ 
 obj.Mytopic=function(req,res){
 	
 	 
@@ -18,7 +18,7 @@ obj.Mytopic=function(req,res){
 // 分页
 	var page=req.query.page?req.query.page:1;
 	var pageNum=8;
-	// 可以分多少页
+	// 可以分多少页 
 	var pageMax=Math.ceil(num/pageNum);
 	// 小于1 赋值为一
 	//页码
@@ -55,6 +55,11 @@ obj.Mytopic=function(req,res){
 	
 }
  
+obj.MytopicRemove=function(req,res){
+	console.log(req.body)	
+		
+	
+}
 obj.about=function(req,res){
 	res.render("home/about")
 }
